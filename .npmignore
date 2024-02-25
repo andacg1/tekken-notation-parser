@@ -3,3 +3,4 @@ src/
 jest.config.ts
 test/
 .parcel-cache/
+tsconfig.json

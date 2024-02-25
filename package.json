@@ -7,7 +7,7 @@
   ],
   "main": "dist/main.js",
   "types": "dist/index.d.ts",
-  "type": "module",
+  "type": "CommonJS",
   "module": "dist/module.js",
   "engines": {
     "node": ">= 18"

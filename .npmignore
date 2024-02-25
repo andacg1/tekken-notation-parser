@@ -1,0 +1,5 @@
+.idea/
+src/
+jest.config.ts
+test/
+.parcel-cache/

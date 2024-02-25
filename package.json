@@ -1,6 +1,6 @@
 {
   "name": "tekken-parser",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "This package is currently in development",
   "source": [
     "src/index.ts"
@@ -18,7 +18,8 @@
     "test": "jest",
     "check": "tsc --noEmit",
     "generate": "antlr4 -Dlanguage=TypeScript -visitor -no-listener -o src/parser src/grammar/TekkenNotation.g4",
-    "install-antlr": "pip install antlr4-tools"
+    "install-antlr": "pip install antlr4-tools",
+    "publish:prod": "npm run build && npm publish"
   },
   "keywords": [],
   "author": "andacg1",

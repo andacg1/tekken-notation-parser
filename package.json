@@ -1,6 +1,6 @@
 {
   "name": "tekken-parser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This package is currently in development",
   "source": [
     "src/index.ts"

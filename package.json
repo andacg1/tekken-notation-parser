@@ -17,7 +17,8 @@
     "build": "npm run generate && parcel build",
     "test": "jest",
     "check": "tsc --noEmit",
-    "generate": "antlr4 -Dlanguage=TypeScript -visitor -no-listener -o src/parser src/grammar/TekkenNotation.g4"
+    "generate": "antlr4 -Dlanguage=TypeScript -visitor -no-listener -o src/parser src/grammar/TekkenNotation.g4",
+    "install-antlr": "pip install antlr4-tools"
   },
   "keywords": [],
   "author": "andacg1",

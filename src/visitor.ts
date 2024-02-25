@@ -16,7 +16,6 @@ import {
 } from "./types";
 import TekkenNotationLexer from './parser/TekkenNotationLexer';
 import TekkenNotationVisitor from './parser/TekkenNotationVisitor';
-import TekkenNotationParser from './parser/TekkenNotationParser';
 
 
 /**
@@ -27,7 +26,6 @@ export class TekkenVisitor
     extends ParseTreeVisitor<TekkenCombo>
     implements TekkenNotationVisitor<any>
 {
-    //static parser = TekkenNotationParser;
 
     protected defaultResult(): TekkenCombo {
         return {
@@ -150,8 +148,6 @@ export class TekkenVisitor
             type === TekkenInstructionType.MOVEMENT
                 ? slug.split('').map((value) => ({ notation: value }))
                 : [];
-
-		console.log(notation)
 
         if (
             this._isTokenOfType(

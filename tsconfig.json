@@ -9,10 +9,11 @@
     "baseUrl": ".",
     "paths": {
       "@/*": [
-        "src/*"
+        "./*"
       ]
     },
     "lib": ["es2022"],
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["node", "jest"]
   }
 }

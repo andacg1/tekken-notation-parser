@@ -1,12 +1,20 @@
 {
-  "name": "tekken-notation-parser",
-  "version": "1.0.0",
-  "description": "",
+  "name": "tekken-parser",
+  "version": "0.0.1",
+  "description": "This package is currently in development",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "andacg1",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andacg1/tekken-notation-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andacg1/tekken-notation-parser/issues"
+  },
+  "homepage": "https://github.com/andacg1/tekken-notation-parser#readme"
 }

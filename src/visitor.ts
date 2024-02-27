@@ -138,6 +138,7 @@ export class TekkenVisitor
         );
     };
 
+
     private _buildInstruction(
         notation: string,
         type: TekkenInstructionType = TekkenInstructionType.UNKNOWN,

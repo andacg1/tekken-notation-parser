@@ -16,6 +16,7 @@
     "watch": "npm run generate && parcel watch",
     "build": "npm run generate && parcel build",
     "test": "jest",
+    "test:grammar": "npm run generate && jest",
     "check": "tsc --noEmit",
     "generate": "antlr4 -Dlanguage=TypeScript -visitor -no-listener -o src/parser src/grammar/TekkenNotation.g4",
     "install-antlr": "pip install antlr4-tools",

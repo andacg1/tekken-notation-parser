@@ -71,4 +71,8 @@ describe('parseTekkenNotation', () => {
 ]
 `)
     });
+    test('parses optional inputs', () => {
+        const tree = parseTekkenNotation('1, (dash), 2');
+        const instructions = tree.moves[0].instructions;
+    })
 });
